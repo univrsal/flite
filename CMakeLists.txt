@@ -15,7 +15,8 @@ target_include_directories(flite PUBLIC
 )
 
 add_subdirectory(src)
-add_subdirectory(main)
+add_subdirectory(example)
+add_subdirectory(lang)
 
 # create timestamp variable
 string(TIMESTAMP BUILD_TIMESTAMP "%Y-%m-%d %H:%M:%S")
